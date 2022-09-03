@@ -107,6 +107,19 @@
   box-shadow: var(--card-shadow);
 }
 
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
 
+.feedback-container .feedback-card:last-child {
+  margin-right: 0px;
+}
 
+.feedback-card {
+  background: transparent;
+}
 
+.feedback-card:hover {
+  background: var(--black-gradient);
+}
